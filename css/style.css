@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 .container {
   max-width: 840px;
   margin: 0 auto;
@@ -10,6 +15,9 @@
   flex-direction: column;
   font-family: tahoma;
 }
+
+
+/* Styles for header=================================== */
 
 .container-head {
   max-width: 840px;
@@ -45,10 +53,8 @@ ul li {
   font-weight: bold;
 }
 
-html,
-body {
-  height: 100%;
-}
+
+/* Styles for Content-types section============== */
 
 .content-types {
   background-color: rgb(240, 240, 240);
@@ -107,6 +113,9 @@ body {
   color: white;
 }
 
+
+/* Styles for informational sections =============== */
+
 .container h2 {
   font-size: 18px;
   margin: 20px 0 10px;
@@ -140,6 +149,9 @@ h2+p {
   margin-left: 5px;
   max-width: 50%;
 }
+
+
+/* Media queries */
 
 @media screen and (max-width: 767px) {
   .content-types {
